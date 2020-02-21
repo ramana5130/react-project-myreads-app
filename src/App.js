@@ -9,6 +9,7 @@ class App extends Component {
     return (
       <div className='app'>
         <Switch>
+          <h1>Added H1</h1>
           <Route exact path='/' component={Main} />
           <Route path='/search' component={Search} />
         </Switch>
